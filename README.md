@@ -16,7 +16,7 @@ The version of the image is same as the release version of the [migrate](https:/
 
 When running the container, you need to pass:
 
-1. DB URL as environment variable.
+1. DB URL `dburl` as environment variable.
 2. The migrate command like `up` / `down` as parameter. When no parameter is given, by default `up` command is used.
 
 Example:
